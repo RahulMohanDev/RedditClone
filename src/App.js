@@ -1,12 +1,10 @@
 import './App.css';
-import AccountPage from "./components/AccountPage/AccountPage";
 
 function App() {
-	return (
-		<div className="center">
-			<AccountPage/>
-		</div>
-	);
+  return (
+    <div className="center">
+    </div>
+  );
 }
 
 export default App;
