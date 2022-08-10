@@ -1,12 +1,17 @@
+import React from "react";
 import './App.css';
-import AccountPage from "./components/AccountPage/AccountPage";
+import { ThemeProvider } from "./CustomHooksAndOtherUtils/ThemeContext.jsx";
+
+import Test from "./Components/Test.jsx";
 
 function App() {
-	return (
-		<div className="center">
-			<AccountPage/>
-		</div>
-	);
+  return (
+    <ThemeProvider>
+      <div className="center">
+        <Test />
+      </div>
+    </ThemeProvider>
+  );
 }
 
 export default App;
