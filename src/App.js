@@ -1,9 +1,16 @@
+import React from "react";
 import './App.css';
+import { ThemeProvider } from "./CustomHooksAndOtherUtils/ThemeContext.jsx";
+
+import Test from "./Components/Test.jsx";
 
 function App() {
   return (
-    <div className="center">
-    </div>
+    <ThemeProvider>
+      <div className="center">
+        <Test />
+      </div>
+    </ThemeProvider>
   );
 }
 
