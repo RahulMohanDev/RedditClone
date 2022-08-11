@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .app{
+    background-color: #fafafa;
+  }
+  .app__header{
+    background-color: white;
+    object-fit: contain;
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .app__headerImage{
+    background-image: url('https://www.redditstatic.com/accountmanager/bbb584033aa89e39bad69436c504c9bd.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 130px;
+  }
+  .modal__box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid lightgray;
+    box-shadow: 24px;
+    width: 55%;
+    display: flex;
+  }
+  .app__singup{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 2%;
+  }
+  .app__signup__rightSection{
+    width: 40%;
+  }
+  .title{
+    margin-top: 15%;
+    font-weight: 600;
+  }
+  .UserAgreement{
+    margin-top: 5%;
+    margin-bottom: 20%;
+  }
+  .UserAgreement__signin{
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+  .app__login__btn{
+    border-radius: 50px 50px 50px 50px !important;
+    border: 1px solid #1976d2 !important;
+    background-color: white !important;
+    color: blue !important;
+    width: 120px;
+    padding: 3px 0 3px 0 !important;
+    text-transform: capitalize !important;
+    margin-right: 10px !important;
+  }
+  .app__signup__btn{
+    border-radius: 50px 50px 50px 50px !important;
+    border: 1px solid #1976d2 !important;  
+    width: 120px;
+    padding: 3px 0 3px 0 !important;
+    text-transform: capitalize !important;
+  }
+  .app__signupForm__btn{
+    border-radius: 50px 50px 50px 50px !important;
+    border: 1px solid #1976d2 !important;  
+    margin-top: 15px !important;
+  }
+  #outlined-basic{
+    padding: 12px 10px !important;
+  }
+  .google__btn{
+    border-radius: 50px 50px 50px 50px !important;
+    border: 1px solid lightgray !important;
+    color: black !important;
+    text-transform: capitalize !important;
+    position: relative !important;
+    justify-content: space-evenly !important;
+  }
+  .apple__btn{
+    border-radius: 50px 50px 50px 50px !important;
+    border: 1px solid lightgray !important;
+    color: black !important;
+    margin-top: 3% !important;
+    text-transform: capitalize !important;
+    position: relative !important;
+    justify-content: space-evenly !important;
+  }
+  .app__signup__or{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: gray;
+    font-weight: 600;
+    text-align: center;
+  }
+  .app__signin__or{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: gray;
+    font-weight: 600;
+    text-align: center;
+  }
+  .already__redditor{
+    margin-top: 8%;
+  }
+  .forget__pass{
+    margin-top: 3%;
+  }
+  @media only screen and (max-width:850px) {
+    .app__headerImage{
+      display: none;
+    }
+    .app__signup__rightSection{
+      width: 100%;
+    }
+    .google__btn{
+      padding: 3px !important;
+    }
+    .apple__btn{
+      padding: 3px !important;
+    }
+  }
+  /*
+  npm install @mui/material @emotion/react @emotion/styled
+  npm install @mui/icons-material
+  
+  */
